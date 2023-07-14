@@ -1,0 +1,12 @@
+GET http://localhost:5000/product
+
+###
+POST http://localhost:5000/product
+Content-Type: : application/json
+
+{
+    "name": "Laptop asus",
+    "price": 3000000,
+    "stock": 10,
+    "status": true
+}
